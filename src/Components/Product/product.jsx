@@ -9,7 +9,6 @@ class Product extends Component {
 	state = {show: false}
 
 	showModal = () => {
-		console.log("here")
 		this.setState({show: true})
 	}
 

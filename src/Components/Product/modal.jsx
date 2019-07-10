@@ -10,7 +10,7 @@ class Modal extends Component {
 		let displayImagesList = [product.hero, ...product.images]
 
 		let imageList = displayImagesList.map(img => {
-			return <img className="display-img" src={img.href} alt={img.alt} onClick={ () =>{ this.setState({selectedImage: img.href}) }}/>
+			return <img className="display-img" key={img.href} src={img.href} alt={img.alt} onClick={ () =>{ this.setState({selectedImage: img.href}) }}/>
 		})
 
 		return imageList
