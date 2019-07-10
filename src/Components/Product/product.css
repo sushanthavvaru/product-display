@@ -1,0 +1,63 @@
+.product {
+	box-sizing: border-box;
+}
+
+.product-name {
+	margin-top:5px;
+	height:70px;
+	padding: 5px 2px;
+    font-family: "GT-Eesti 3r",Arial,sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+	.product-name {
+		height:100px;
+		padding: 5px 2px;
+	}
+}
+
+.img {
+	max-width: 100%;
+	display: inline-block;
+}
+
+.img:hover {
+	cursor: pointer;
+}
+
+.product-content {
+	background-color: #eee;
+	border: 1px solid #aaa;
+	margin: 20px;
+	height: auto;
+	width: 100%;
+}
+
+.product-content:hover {
+	border: 1px solid black;
+	background-color: #fff;
+	box-shadow: 5px 5px 10px 10px gray;
+}
+
+.old-price {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.new-price {
+	color: #af1a31;;
+}
+
+.tags {
+	margin-top: 5px; 
+	color: green;
+}
+
+.more-button:link, .more-button:visited {
+	display: block;
+	background-color: #af1a31;
+	color: white; 
+	text-decoration: none;
+	padding: 5px;
+}
