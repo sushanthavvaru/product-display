@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Important! There is a proxy server for communication with API.
+
+Go to ProxyServer directory and run "npm install" and "node app.js" (without this command the app won't work)
+
 In the project directory, you can run:
-
-Important! Also there is a proxy server for communication with API.
-
-Go to ProxyServer directory and run "node app.js" (without this command the app won't work)
 
 ### `npm start`
 
